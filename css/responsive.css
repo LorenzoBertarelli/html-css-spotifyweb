@@ -1,0 +1,7 @@
+/* XS */
+
+@media screen and (max-width: 600px) {
+    .logo:hover .image {
+        display: none;
+    }
+} 
