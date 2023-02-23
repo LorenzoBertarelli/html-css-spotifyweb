@@ -1,7 +1,58 @@
 /* XS */
 
 @media screen and (max-width: 600px) {
-    .logo:hover .image {
+    .logo {
+        width: 100px;
+    }
+
+    .col-right {
+    width: calc(100% - 100px);
+    }
+
+    .header {
+    width: calc(100% - 100px);
+    }
+
+    .logo .big-logo {
+        display: none;
+    }
+
+    .col-left {
+        display: inline-block;
+        background-color: black;
+        min-width: 100px;
+    }
+
+    .playlist {
+        display: none;
+    }
+    
+    .test-left {
+        display: none;
+    }
+
+    .app-instal {
+        padding: 20px 0px 20px 20px;
+    }
+
+    hr {
+        color: black;
+        border: 0;
+        background: 0;
+        width: 5px;
+    }
+    
+    .app-link {
+        margin-left: 12px;
+   }
+} 
+
+@media screen and (min-width: 600px) {
+    .logo {
+        width: 250px;
+    }
+
+    .logo .mini-logo {
         display: none;
     }
 } 
